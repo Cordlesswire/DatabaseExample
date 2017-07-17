@@ -27,7 +27,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/write"
-        android:background="#FFFFFF"
+        android:background="#80FFFFFF"
         android:textColor="#000000"
         android:layout_margin="50dp" />
 
@@ -36,7 +36,7 @@
         android:id="@+id/retrieve_data"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#FFFFFF"
+        android:background="#80FFFFFF"
         android:textColor="#000000"
         android:text="@string/read"
         android:layout_margin="50dp" />
