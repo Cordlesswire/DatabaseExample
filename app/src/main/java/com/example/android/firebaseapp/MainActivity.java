@@ -55,7 +55,7 @@ public class MainActivity extends AppCompatActivity {
                         // whenever data at this location is updated.
                         String value = dataSnapshot.getValue(String.class);
                         //Display Results on TextView
-                        displaydata.setText("Value is: " + value);
+                        displaydata.setText("  Value is : " + value);
 
                          //Display Results on Log
                        // Log.d(TAG, "Value is: " + value);
@@ -65,7 +65,7 @@ public class MainActivity extends AppCompatActivity {
                     public void onCancelled(DatabaseError error) {
                         // Exception Handling...Display Error Message if there is no data to Read
                         //Display Results on TextView
-                        displaydata.setText("Failed to read value." + error.toException());
+                        displaydata.setText("   Failed to read value. " + error.toException());
 
                         //Display Results on Log
                         //Log.w(TAG, "Failed to read value.", error.toException());
