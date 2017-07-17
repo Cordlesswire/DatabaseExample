@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">FirebaseApp</string>
+
+    <string name="write">Write Data to Firebase</string>
+    <string name="read">Retrieve Data from Firebase</string>
+
+    <string name="value_is">    Value is : </string>
+    <string name="error_reading_value">   Failed to read value. </string>
+
 </resources>

@@ -54,19 +54,20 @@ public class MainActivity extends AppCompatActivity {
                         // This method is called once with the initial value and again
                         // whenever data at this location is updated.
                         String value = dataSnapshot.getValue(String.class);
+                        //Display Results on TextView
                         displaydata.setText("Value is: " + value);
 
-                          //TAG is displaying error
+                         //Display Results on Log
                        // Log.d(TAG, "Value is: " + value);
                     }
 
                     @Override
                     public void onCancelled(DatabaseError error) {
-                        // Failed to read value
-
+                        // Exception Handling...Display Error Message if there is no data to Read
+                        //Display Results on TextView
                         displaydata.setText("Failed to read value." + error.toException());
 
-                        //TAG is displaying error
+                        //Display Results on Log
                         //Log.w(TAG, "Failed to read value.", error.toException());
                     }
                 });

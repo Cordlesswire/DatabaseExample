@@ -23,7 +23,7 @@
         android:id="@+id/write_data"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Write Data to Firebase"
+        android:text="@string/write"
         android:layout_margin="50dp"/>
 
 
@@ -32,6 +32,6 @@
         android:id="@+id/retrieve_data"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Retrieve Data from Firebase"
+        android:text="@string/read"
         android:layout_margin="50dp"/>
 </LinearLayout>
